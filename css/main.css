@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-grid;
+	height: 140px;
+	width: 140px;
+}
+
+.red {
+	background-color: red;
+}
+.yellow {
+	background-color: yellow;
+}
+.black {
+	background-color: black;
+}
+.green {
+	background-color: green;
+}
+
+@media screen and (max-width: 600px) {
+    .yellow,.black {
+        display: none;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .box {
+        width: 100%;
+    }
+}
